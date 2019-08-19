@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trilha de Governo Aberto</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css?v=2">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+
+    <div id="background_wrap">
+
+
+
+    <!-- FULL SCREEN VIDEO OVERLAY -->
+    <div class="overlay">
+        <a href="#" class="close"><img src="imgs/but-chiude.png" alt=""></a>
+        <div class="video-container">
+            <iframe id="video" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ARRIVO + CARTA -->
+    <section class="arrivo">
+        <img class="brush1" src="imgs/arrivo-tran.png" id="cartaan">
+    </section>
+
+    <section id="carta" class="carta slide big_pic" id="0">
+        <a href="#intro"><img class="cerchio cir_1" style="position: absolute; top:21%; left: 24%" src="imgs/carta-marca.png"></a>
+        <a href="#cascataan"><img class="cerchio cir_2" style="position: absolute; top:25%; right: 15%;" src="imgs/carta-marca.png"></a>
+        <a href="#cavernaan"><img class="cerchio cir_3" style="position: absolute; top:51%; right: 27%;" src="imgs/carta-marca.png"></a>
+        <a href="#pontean"><img class="cerchio cir_4" style="position: absolute; top:48%; left: 37%;" src="imgs/carta-marca.png"></a>
+        <a href="#gazeboan"><img class="cerchio cir_5" style="position: absolute; top:35%; left: 10%;" src="imgs/carta-marca.png"></a>
+    </section>
+
+
+
+
+
+    <!-- INTRO -->    
+    <!--<img class="brush3" src="imgs/intro-tran.png" id="introan">-->
+    <section id="intro" class="fermata intro-bg">
+
+        <div class="row">
+            <!--  FIRST COL VIDEO CAROUSEL -->
+            <div class="col-md-6">
+                <div class="schermo">
+                    <div class="schermo-content">
+                        <div id="gazebo-carosello" class="carousel slide" data-ride="carousel">
+                            <!-- CAROUSEL INDICATORS -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#gazebo-carosello" data-slide-to="0" class="active"></li>
+                                <li data-target="#gazebo-carosello" data-slide-to="1"></li>
+                                <li data-target="#gazebo-carosello" data-slide-to="2"></li>
+                                <li data-target="#gazebo-carosello" data-slide-to="3"></li>
+                                <li data-target="#gazebo-carosello" data-slide-to="4"></li>
+                            </ol>
+                            <div class="carousel-inner">                            
+                                <div class="item active">
+                                    <a href="#" class="play" data-video="pW_jtD_Nirk" onclick="return false">
+                                        <div class="intro-thumb12">
+                                            <div class="thumb-img">
+                                                <div class="centered">
+                                                    <img src="imgs/but-playvid.png">
+                                                    <p>Trilha de Governo Aberto</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="play" data-video="k7JuLQexZUo" onclick="return false">
+                                        <div class="intro-thumb11">
+                                            <div class="thumb-img">
+                                                <div class="centered">
+                                                    <img src="imgs/but-playvid.png">
+                                                    <p>Cordel: Governo Aberto</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="play" data-video="CaQz_6ijLmU" onclick="return false">
+                                        <div class="intro-thumb13">
+                                            <div class="thumb-img">
+                                                <div class="centered">
+                                                    <img src="imgs/but-playvid.png">
+                                                    <p>Conceito, Princípios e Difusão</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="play" data-video="3Gf4oGN-q_U" onclick="return false">
+                                        <div class="intro-thumb14">
+                                            <div class="thumb-img">
+                                                <div class="centered">
+                                                    <img src="imgs/but-playvid.png">
+                                                    <p>Evolução dos Princípios no Brasil</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="play" data-video="oW5PsgAhH-w" onclick="return false">
+                                        <div class="intro-thumb15">
+                                            <div class="thumb-img">
+                                                <div class="centered">
+                                                    <img src="imgs/but-playvid.png">
+                                                    <p>Governo Aberto e Questões Ambientais</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- CAROUSEL ARROWS -->
+                            </div>
+                            <a class="left carousel-control" href="#gazebo-carosello" data-slide="prev">
+                                <img src="imgs/but-freccia.png" style="transform: rotate(180deg);"></a>
+                            <a class="right carousel-control" href="#gazebo-carosello" data-slide="next">
+                                <img src="imgs/but-freccia.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SECOND COL TEXTO + BUTS -->
+            <div class="col-md-6">     
+               <img src="imgs/topo-testo.png" class="butterfly">
+               <!--<img src="imgs/intro-titolo.png" class="fermata-sopratesto">   -->
+                <div class="fermata-testo">
+                    <p>O tema Governo Aberto pode ser entendido como um conceito guarda-chuva, que engloba quatro grandes princípios: participação social, transparência, dados abertos e accountability. Esses quatro princípios, juntos, estabelecem uma nova relação entre governo e sociedade, em que prevalece o diálogo e a cocriação, trazendo diversos benefícios, como: a melhoria nos processos de formulação e implementação de políticas públicas, a intensificação da democracia e o avanço no combate à corrupção. Se você ficou curioso (a) para saber mais sobre a aplicação do tema na área ambiental, o (a) convidamos para caminhar por nossa trilha de Governo Aberto em Clima, Floresta e Agricultura.</p>
+                </div>
+                <div class="slide inner_btn">
+                    <img class="menu-but1" onclick="show('1')" src="imgs/intro-but-anche.png"><br>
+                    <a href="#carta" ><img class="menu-but2" src="imgs/intro-but-carta.png"></a><br>
+                    <a href="#cascataan"><img class="menu-but3" src="imgs/intro-but-segui.png"></a>
+                </div>
+                    <!-- POPUP -->
+                    <div class="pop-screen" id="1">
+                        <div class="pop-splash">
+                            <img src="imgs/but-chiude.png" class="pop-chiude" onclick="hide()">
+                            <img class="pop-titolo" src="imgs/but-anche-titolo.png">
+                            <div class="pop-testo">
+                                <p>Qual conceito de Governo Aberto?<br>Uma aproximação aos seus princípios. <a href="http://www.gigapp.org/administrator/components/com_jresearch/files/publications/2016-098.pdf" target="_blank" onclick="hide()">Acesse</a>.</p>
+                                <p>Quarto Plano de Ação Nacional<br>em Governo Aberto. <a href="http://governoaberto.cgu.gov.br/no-brasil/planos-de-acao-1/copy_of_3o-plano-de-acao-brasileiro" target="_blank" onclick="hide()">Acesse</a>.</p>
+                                <p>Democracia, Princípio 10 e Sustentabilidade. <a href="https://diplomatique.org.br/democracia-principio-10-e-sustentabilidade/" target="_blank target="_blank"" onclick="hide()">Acesse</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- POPUP END -->
+            </div>
+
+        </div>
+        <!--</div> -->
+    </section>
+
+    <img src="imgs/a-interline.png" alt="" class="cut_line">
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////// 2 ///////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+    <!-- CASCATA -->
+    <!--<img class="brush3" src="imgs/cascata-tran.png" id="cascataan">-->
+    <section id="cascataan" class="fermata cascata-bg">
+        <div class="row">
+            <!-- FIRST COL VIDEO CAROUSEL -->
+            <div class="col-md-6">
+                <div class="schermo">
+                    <div class="schermo-content">
+                        <div id="gazebo-carosello1" class="carousel slide">
+                            <!-- CAROUSEL INDICATORS -->
+                            <ol class="carousel-indicators">
+                                    <li data-target="#gazebo-carosello1" data-slide-to="0" class="active"></li>
+                                    <li data-target="#gazebo-carosello1" data-slide-to="1"></li>
+                                    <li data-target="#gazebo-carosello1" data-slide-to="2"></li>
+                                </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+
+
+                                   <a href="#" class="play" data-video="mCvbzaebMP8" onclick="return false">
+                                   <div class="cascata-thumb21">
+                                              <div class="thumb-img">
+                                                  <div class="centered">
+                                                      <img src="imgs/but-playvid.png">
+                                                      <p>Cordel: Transparência</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#" class="play" data-video="xAHaN1I6N1E" onclick="return false">
+                                          <div class="cascata-thumb22">
+                                              <div class="thumb-img">
+                                                  <div class="centered">
+                                                      <img src="imgs/but-playvid.png">
+                                                      <p>Lei de Acesso à Informação</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#" class="play" data-video="4MK0Jn6sycU" onclick="return false">
+                                          <div class="cascata-thumb23">
+                                              <div class="thumb-img">
+                                                  <div class="centered">
+                                                      <img src="imgs/but-playvid.png">
+                                                      <p>Acesso à Informação e Meio Ambiente</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                            <a class="left carousel-control" href="#gazebo-carosello1" data-slide="prev">
+                                <img src="imgs/but-freccia.png" style="transform: rotate(180deg);"></a>
+                            <a class="right carousel-control" href="#gazebo-carosello1" data-slide="next">
+                                <img src="imgs/but-freccia.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!--</div>-->
+
+            <!-- SECOND COL TEXTO + BUTS -->
+            <div class="col-md-6">
+                <img src="imgs/topo-testo.png" class="butterfly">
+                <!--<img src="imgs/cascata-titolo.png" class="fermata-sopratesto">-->
+                <div class="fermata-testo">
+                    <p>A Transparência e o Acesso à Informação são direitos fundamentais dos cidadãos para a participação e o controle social. São, também, princípios essenciais de Governo Aberto, pois é a partir desses temas que outros conceitos podem ser desenvolvidos de forma plena. Nesta parada da trilha, você irá conhecer mais sobre o conceito e a evolução da transparência e do acesso à informação no Brasil e no mundo, bem como as principais leis existentes. Convidamos você para uma breve imersão nesta temática para compreender a sua relação com as políticas e as questões ambientais.</p>
+                </div>
+                <div class="slide inner_btn">
+                    <img class="menu-but1 inner_btn" onclick="show('2')" src="imgs/cascata-but-anche.png"><br>
+                    <a href="#carta" ><img class="menu-but2" src="imgs/cascata-but-carta.png"></a><br>
+                    <a href="#cavernaan"><img class="menu-but3" src="imgs/cascata-but-segui.png"></a>
+                </div>
+                <!-- POPUP -->
+                <div class="pop-screen" id="2">
+                    <div class="pop-splash">
+                        <img src="imgs/but-chiude.png" class="pop-chiude" onclick="hide()">
+                        <img class="pop-titolo" src="imgs/but-anche-titolo.png">
+                        <div class="pop-testo">
+                            <p>Transparência das informações ambientais<br>na Amazônia Legal. <a href="https://www.icv.org.br/wp-content/uploads/2017/04/transpar%C3%AAncia-ambiental-na-Amaz%C3%B4nia.pdf" target="_blank" onclick="hide()">Acesse</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- POPUP END -->
+            </div>
+    </div>
+</section>
+
+
+    <img src="imgs/a-interline.png" alt="" class="cut_line">
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////// 3 ///////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+
+    <!-- CAVERNA -->
+    <!--<img class="brush3" src="imgs/caverna-tran.png" id="cavernaan">-->
+    <section id="cavernaan" class="fermata caverna-bg">
+        <div class="row">
+
+            <!-- FIRST COL VIDEO CAROUSEL -->
+            <div class="col-md-6">
+                <div class="schermo">
+                    <div class="schermo-content">
+                        <div id="gazebo-carosello2" class="carousel slide">
+                            <!-- CAROUSEL INDICATORS -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#gazebo-carosello2" data-slide-to="0" class="active"></li>
+                                <li data-target="#gazebo-carosello2" data-slide-to="1"></li>
+                                <li data-target="#gazebo-carosello2" data-slide-to="2"></li>
+                                <li data-target="#gazebo-carosello2" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+
+
+                                    <a href="#" class="play" data-video="Awds0VeCuuE" onclick="return false">
+                                      <div class="caverna-thumb31">
+                                          <div class="thumb-img">
+                                              <div class="centered">
+                                                  <img src="imgs/but-playvid.png">
+                                                  <p>Cordel: Dados Abertos</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="play" data-video="lERu4RHlk1w" onclick="return false">
+                                      <div class="caverna-thumb32">
+                                          <div class="thumb-img">
+                                              <div class="centered">
+                                                  <img src="imgs/but-playvid.png">
+                                                  <p>O que são Dados Abertos?</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="play" data-video="TDYEuqg1zOI" onclick="return false">
+                                      <div class="caverna-thumb33">
+                                          <div class="thumb-img">
+                                              <div class="centered">
+                                                  <img src="imgs/but-playvid.png">
+                                                  <p>Leis, Políticas e Aplicações</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="play" data-video="pmAZGSJrDUg" onclick="return false">
+                                      <div class="caverna-thumb34">
+                                          <div class="thumb-img">
+                                              <div class="centered">
+                                                  <img src="imgs/but-playvid.png">
+                                                  <p>Dados Abertos e Meio Ambiente</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    </a>
+                                </div>
+                                </div>
+                            <a class="left carousel-control" href="#gazebo-carosello2" data-slide="prev">
+                                <img src="imgs/but-freccia.png" style="transform: rotate(180deg);"></a>
+                            <a class="right carousel-control" href="#gazebo-carosello2" data-slide="next">
+                                <img src="imgs/but-freccia.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!--</div>-->
+            <!-- SECOND COL TEXTO + BUTS -->
+            <div class="col-md-6">
+                <img src="imgs/topo-testo.png" class="butterfly">
+                <!--<img src="imgs/caverna-titolo.png" class="fermata-sopratesto">-->
+                <div class="fermata-testo">
+                    <p>Nos últimos anos, com o avanço das ferramentas de tecnologia da informação e comunicação, o campo de Dados Abertos apresentou um grande salto no seu potencial de geração de conhecimento e de controle social. Nesta etapa da trilha, iremos debater, de forma explicativa, e apresentar o progresso da área como forma de prover soluções para diversos desafios que enfrentamos na sociedade, com foco especial no potencial de uso de dados na área de clima, floresta e agricultura. Gosta de inovação e de soluções “fora da caixa”? Não perca as próximas videoaulas.</p>
+                </div>
+                <div class="slide inner_btn">
+                    <img class="menu-but1" onclick="show('3')" src="imgs/caverna-but-anche.png"><br>
+                    <a href="#carta" ><img class="menu-but2" src="imgs/caverna-but-carta.png"></a><br>
+                    <a href="#pontean"><img class="menu-but3" src="imgs/caverna-but-segui.png"></a>
+                </div>
+                <!-- POPUP -->
+                <div class="pop-screen" id="3">
+                    <div class="pop-splash">
+                        <img src="imgs/but-chiude.png" class="pop-chiude" onclick="hide()">
+                        <img class="pop-titolo" src="imgs/but-anche-titolo.png">
+                        <div class="pop-testo">
+                            <p>Dados abertos em clima, floresta e agricultura: uma análise da abertura de bases de dados federais. <a href="http://www.imaflora.org/downloads/biblioteca/5a1dad18c4364_perspectiva_dados_imaflora_aprovacao_2811.pdf" target="_blank" onclick="hide()">Acesse</a>.</p>
+                            <p>Democracia ambiental e princípio 10 no Brasil. <a href="https://www.imaflora.org/downloads/biblioteca/5721f9a0b3e43_DemocraciaAmbientalePrincpio10noBrasil-Panoramaestudosdecasoeopotencialdoacordoregional.pdf" target="_blank" onclick="hide()">Acesse</a>.</p>
+                            <p>Como os dados abertos podem contribuir com o combate ao desmatamento e com a sustentabilidade da produção florestal e agrícola? <a href="http://imaflora.blogspot.com/2016/12/como-os-dados-abertos-podem-contribir.html" target="_blank" onclick="hide()">Acesse</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- POPUP END -->
+            </div>
+        </div>
+    </section>
+
+
+    <img src="imgs/a-interline.png" alt="" class="cut_line">
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--///////////////////////////////////////////////////// 4 /////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+
+    <!-- PONTE -->
+    <!--<img class="brush3" src="imgs/ponte-tran.png" id="pontean">-->
+    <section id="pontean" class="fermata ponte-bg">
+        <div class="row">
+
+            <!-- FIRST COL VIDEO CAROUSEL -->
+            <div class="col-md-6">
+                <div class="schermo">
+                    <div class="schermo-content">
+                        <div id="gazebo-carosello3" class="carousel slide">
+                            <!-- CAROUSEL INDICATORS -->
+                            <ol class="carousel-indicators">
+                                    <li data-target="#gazebo-carosello3" data-slide-to="0" class="active"></li>
+                                    <li data-target="#gazebo-carosello3" data-slide-to="1"></li>
+                                    <li data-target="#gazebo-carosello3" data-slide-to="2"></li>
+                                    <li data-target="#gazebo-carosello3" data-slide-to="3"></li>
+                                </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                        <a href="#" class="play" data-video="tbES3tYQ6Uo" onclick="return false">
+                                          <div class="ponte-thumb41">
+                                              <div class="thumb-img">
+                                                  <div class="centered">
+                                                      <img src="imgs/but-playvid.png">
+                                                      <p>Cordel: Participação</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#" class="play" data-video="zf9LzDm_eX0" onclick="return false">
+                                          <div class="ponte-thumb42">
+                                              <div class="thumb-img">
+                                                  <div class="centered">
+                                                      <img src="imgs/but-playvid.png">
+                                                      <p>Democracia e Participação</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#" class="play" data-video="_5DANbtBcWI" onclick="return false">
+                                          <div class="ponte-thumb43">
+                                              <div class="thumb-img">
+                                                  <div class="centered">
+                                                      <img src="imgs/but-playvid.png">
+                                                      <p>Instrumentos de Participação Social</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#" class="play" data-video="B8ek-KA6Vw0" onclick="return false">
+                                          <div class="ponte-thumb44">
+                                              <div class="thumb-img">
+                                                  <div class="centered">
+                                                      <img src="imgs/but-playvid.png">
+                                                      <p>Outras Formas de Participação Social</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </a>
+                                    </div>
+                                </div>
+                            <a class="left carousel-control" href="#gazebo-carosello3" data-slide="prev">
+                                <img src="imgs/but-freccia.png" style="transform: rotate(180deg);"></a>
+                            <a class="right carousel-control" href="#gazebo-carosello3" data-slide="next">
+                                <img src="imgs/but-freccia.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- SECOND COL TEXTO + BUTS -->
+            <div class="col-md-6">
+                <!--<img src="imgs/ponte-titolo.png" class="fermata-sopratesto">-->
+                <img src="imgs/topo-testo.png" class="butterfly">
+                <div class="fermata-testo">
+                    <p>É impossível pensar no tema Governo Aberto sem a participação do cidadão nas diversas etapas de construção de uma política pública. A democracia parte do princípio de que o poder está nas mãos do povo, sendo os governantes representantes da sociedade nas instâncias de tomada de decisão. Uma democracia participativa e efetiva busca garantir espaços e instrumentos para que os cidadãos criem juntos com vários órgãos governamentais, de diversas instâncias, soluções que considerem prioritárias. Vamos, então, aprender um pouco mais sobre como podemos participar de decisões que impactam as nossas vidas?</p>
+                </div>
+                <div class="slide inner_btn">
+                    <img class="menu-but1" onclick="show('4')" src="imgs/ponte-but-anche.png"><br>
+                    <a href="#carta" ><img class="menu-but2" src="imgs/ponte-but-carta.png"></a><br>
+                    <a href="#gazeboan"><img class="menu-but3" src="imgs/ponte-but-segui.png"></a>
+                </div>
+                <!-- POPUP -->
+                <div class="pop-screen" id="4">
+                    <div class="pop-splash">
+                        <img src="imgs/but-chiude.png" class="pop-chiude" onclick="hide()">
+                        <img class="pop-titolo" src="imgs/but-anche-titolo.png">
+                        <div class="pop-testo">
+                            <p>Democracia, princípio 10 e sustentabilidade. <a href="https://diplomatique.org.br/democracia-principio-10-e-sustentabilidade/" target="_blank" onclick="hide()">Acesse</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- POPUP END -->
+            </div>
+            <!--</div>-->
+        </div>
+    </section>
+
+
+    <img src="imgs/a-interline.png" alt="" class="cut_line">
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--///////////////////////////////////////////////////// 5 /////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+
+    <!-- GAZEBO -->
+    <!--<img class="brush3" src="imgs/gazebo-tran.png" id="gazeboan">-->
+    <section id="gazeboan" class="fermata gazebo-bg">
+        <div class="row">
+
+            <!-- FIRST COL VIDEO CAROUSEL -->
+            <div class="col-md-6">
+                <div class="schermo">
+                    <div class="schermo-content">
+                        <div id="gazebo-carosello4" class="carousel slide">
+                            <!-- CAROUSEL INDICATORS -->
+                            <ol class="carousel-indicators">
+                                    <li data-target="#gazebo-carosello4" data-slide-to="0" class="active"></li>
+                                    <li data-target="#gazebo-carosello4" data-slide-to="1"></li>
+                                    <li data-target="#gazebo-carosello4" data-slide-to="2"></li>
+                                    <li data-target="#gazebo-carosello4" data-slide-to="3"></li>
+                                </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <a href="#" class="play" data-video="w92hzdehKxc" onclick="return false">
+                                      <div class="gazebo-thumb51">
+                                          <div class="thumb-img">
+                                              <div class="centered">
+                                                  <img src="imgs/but-playvid.png">
+                                                  <p>Cordel: Accountability</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="play" data-video="o9-yip05bg4" onclick="return false">
+                                      <div class="gazebo-thumb52">
+                                          <div class="thumb-img">
+                                              <div class="centered">
+                                                  <img src="imgs/but-playvid.png">
+                                                  <p>O que é Accountability?</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="play" data-video="VvmzHv2p8vY" onclick="return false">
+                                      <div class="gazebo-thumb53">
+                                          <div class="thumb-img">
+                                              <div class="centered">
+                                                  <img src="imgs/but-playvid.png">
+                                                  <p>Eixo Transversal de Governo Aberto</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" class="play" data-video="g4Be2Mx0ucM" onclick="return false">
+                                      <div class="gazebo-thumb54">
+                                          <div class="thumb-img">
+                                              <div class="centered">
+                                                  <img src="imgs/but-playvid.png">
+                                                  <p>Instrumentos e Aplicações na Área Ambiental</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </a>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#gazebo-carosello4" data-slide="prev">
+                                <img src="imgs/but-freccia.png" style="transform: rotate(180deg);"></a>
+                            <a class="right carousel-control" href="#gazebo-carosello4" data-slide="next">
+                                <img src="imgs/but-freccia.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- SECOND COL TEXTO + BUTS -->
+            <div class="col-md-6">
+            <!--<img src="imgs/gazebo-titolo.png" class="fermata-sopratesto"> -->
+            <img src="imgs/topo-testo.png" class="butterfly">
+            <div class="fermata-testo">
+                <p>A Accountability é um termo em inglês que não possui tradução para o português. Ela aborda aspectos que não podem ser sintetizados em apenas uma palavra ou expressão do nosso idioma. Mas, calma! Nesta última etapa da trilha vamos abordar esse tema de forma didática. De forma geral, o conceito pode ser compreendido como uma obrigatoriedade que os órgãos e os gestores públicos possuem de prestar contas à sociedade e aos órgãos de controle e a possibilidade de serem responsabilizados caso não conduzam corretamente suas ações. Para chegarmos ao nosso destino final, convidamos você para conhecer um pouco mais sobre esta temática e como ela se aplica nas políticas ambientais brasileiras.</p>
+            </div>
+            <div class="slide inner_btn">
+                <img class="menu-but1" onclick="show('5')" src="imgs/gazebo-but-anche.png"><br>
+                <a href="#carta" ><img class="menu-but2" src="imgs/gazebo-but-carta.png"></a><br>
+                <a href="#finalean"><img class="menu-but3" src="imgs/gazebo-but-segui.png"></a>
+            </div>
+            <!-- POPUP -->
+            <div class="pop-screen" id="5">
+                <div class="pop-splash">
+                    <img src="imgs/but-chiude.png" class="pop-chiude" onclick="hide()">
+                    <img class="pop-titolo" src="imgs/but-anche-titolo.png">
+                    <div class="pop-testo">
+                        <p>Atuação do TCU no controle externo da gestão ambiental. <a href="http://www.ipea.gov.br/agencia/images/stories/PDFs/livros/livros/160719_governanca_ambiental_cap02.pdf" target="_blank" onclick="hide()">Acesse</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- POPUP END -->
+        </div>
+        </div>
+    </section>
+
+    <img src="imgs/a-interline.png" alt="" class="cut_line">
+
+
+<div class="mini"></div>
+
+    <!-- FINALE -->
+    <section class="finale" id="finalean">
+      <a href="https://www.youtube.com/playlist?list=PLhXCGyhdrFUAbAj6M7rHm0FJhZg0sSAi_" target="_blank">
+        <img class="brush2" src="imgs/finale-tran.png" id="finale">
+      </a>
+    </section>
+</div>
+</body>
+</html>
+
+
+
+
+
+ 
+
+<script src="js/script.js?v=2"></script>
+
+
+
+
+
+ 
+<script type="text/javascript">
+    // POP-OPEN
+    function show(id) {
+        $('#' + id).show();
+    }
+    // POP-CHIUDE
+    function hide() {
+        $('.pop-screen').fadeOut(600);
+    }
+    $("#1,#2,#3,#4,#5").click(function () {
+        if (!$(event.target).closest(".pop-screen .pop-splash").length) {
+            $('.pop-screen').fadeOut(600);
+        }
+    });
+    // CAROUSEL SLIDER
+    $('.carousel').each(function(){
+        $(this).carousel({
+            interval: 3000
+        });
+    })
+</script>
